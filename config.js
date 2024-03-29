@@ -10,6 +10,6 @@ module.exports = {
         mentionStaffRolesOnNewMail: true // ← Mention staff roles when there is a new mail?
     },
     logs: {
-        webhookURL: 'https://discord.com/api/webhooks/1223351173512171592/_lqEJh_a3_XINDca9ZCt6q3Manfy5fcIRD7Rsoh5gbBaRjYAkFmKqPKq3xxHhpn4LCRh' // ← The logging webhook URL (OPTIONAL) (.env IS RECOMMENDED)
+        webhookURL: '' // ← The logging webhook URL (OPTIONAL) (.env IS RECOMMENDED)
     }
 };
