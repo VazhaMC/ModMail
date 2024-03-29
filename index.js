@@ -1,4 +1,5 @@
 const { SQLiteDatabase } = require('@tfadev/easy-sqlite');
+const keep_alive = require('./keep_alive.js')
 const { CommandsHandler, EventsHandler } = require('horizon-handler');
 const {
     Client,
